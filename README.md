@@ -49,11 +49,11 @@ Example:
 # What To Mine configuration parameters (use generate-config to change)
 wtmparams: "...."
 
-# Minimum difference in profitability to switch (ex. 5 = 5% higher)
-profit_threshold: 5
+# Minimum difference in profitability to switch (ex. 10 = 10% higher)
+profit_threshold: 10
 
 # Interval (in minutes) between profitability updates
-update_interval: 5
+update_interval: 60
 
 # Coins to mine / command to start miner (See http://whattomine.com/coins for coin symbols)
 ETH: "mine_eth.bat"
