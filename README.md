@@ -13,9 +13,9 @@
 Autominer is a command-line utility to automatically mine the most profitable coin. It uses [WhatToMine](http://whattomine.com) to determine the most profitable coin for your system, and makes sure you're mining it. It is compatible with all mining programs. Autominer also keeps an eye on your miner, and will automatically restart it for you if it crashes.
 
 # Releases
-The current version is **0.2.1**
-* Windows: [autominer-0.2.1-windows64.zip](https://github.com/autominer/autominer/releases/download/v0.2.1/autominer-0.2.1-windows64.zip)
-* Linux: [autominer-0.2.1-linux.tar.gz](https://github.com/autominer/autominer/releases/download/v0.2.1/autominer-0.2.1-linux.tar.gz)
+The current version is **0.2.2**
+* Windows: [autominer-0.2.2-windows64.zip](https://github.com/autominer/autominer/releases/download/v0.2.2/autominer-0.2.2-windows64.zip)
+* Linux: [autominer-0.2.2-linux.tar.gz](https://github.com/autominer/autominer/releases/download/v0.2.2/autominer-0.2.2-linux.tar.gz)
 
 # Setup
 1. Download the latest version of autominer, and extract the files.
