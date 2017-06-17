@@ -10,12 +10,19 @@
 ```
 
 # Overview
-Autominer is a command-line utility to automatically mine the most profitable coin. It uses [WhatToMine](http://whattomine.com) to determine the most profitable coin for your system, and makes sure you're mining it. It is compatible with all mining programs. Autominer also keeps an eye on your miner, and will automatically restart it for you if it crashes.
+Autominer is a command-line utility to automatically mine the most profitable coin. It uses [WhatToMine](http://whattomine.com) to determine the most profitable coin for your system, and makes sure you're mining it.
+
+# Features
+
+* Mines the most profitable coin for your rig (according to [WhatToMine](http://whattomine.com))
+* Supports all mining software (including Dual Miners)
+* Automatically restarts your mining software if it crashes
+* Does not impact hashrates (uses almost no system resources)
 
 # Releases
-The current version is **0.2.2**
-* Windows: [autominer-0.2.2-windows64.zip](https://github.com/autominer/autominer/releases/download/v0.2.2/autominer-0.2.2-windows64.zip)
-* Linux: [autominer-0.2.2-linux.tar.gz](https://github.com/autominer/autominer/releases/download/v0.2.2/autominer-0.2.2-linux.tar.gz)
+The current version is **0.3.1**
+* Windows: [autominer-0.3.1-windows64.zip](https://github.com/autominer/autominer/releases/download/v0.3.1/autominer-0.3.1-windows64.zip)
+* Linux: [autominer-0.3.1-linux.tar.gz](https://github.com/autominer/autominer/releases/download/v0.3.1/autominer-0.3.1-linux.tar.gz)
 
 # Setup
 1. Download the latest version of autominer, and extract the files.
@@ -58,6 +65,9 @@ update_interval: 60
 # Coins to mine / command to start miner (See http://whattomine.com/coins for coin symbols)
 ETH: "mine_eth.bat"
 ZEC: "mine_zec.bat"
+
+# Dual-coin profitability is also supported
+ETH+DCR: "dualmine_eth_dcr.bat"
 ```
 
 7. Start autominer (make sure the `config.yml` file is in the same directory as the autominer executable)
