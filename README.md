@@ -20,9 +20,9 @@ Autominer is a command-line utility to automatically mine the most profitable co
 * Does not impact hashrates (uses almost no system resources)
 
 # Releases
-The current version is **0.3.1**
-* Windows: [autominer-0.3.1-windows64.zip](https://github.com/autominer/autominer/releases/download/v0.3.1/autominer-0.3.1-windows64.zip)
-* Linux: [autominer-0.3.1-linux.tar.gz](https://github.com/autominer/autominer/releases/download/v0.3.1/autominer-0.3.1-linux.tar.gz)
+The current version is **0.3.2**
+* Windows: [autominer-0.3.2-windows64.zip](https://github.com/autominer/autominer/releases/download/v0.3.2/autominer-0.3.2-windows64.zip)
+* Linux: [autominer-0.3.2-linux.tar.gz](https://github.com/autominer/autominer/releases/download/v0.3.2/autominer-0.3.2-linux.tar.gz)
 
 # Setup
 1. Download the latest version of autominer, and extract the files.
@@ -35,21 +35,21 @@ The current version is **0.3.1**
 http://whattomine.com/coins?......
 ```
 
-4. Open a terminal/command prompt, and execute autominer with the `generate-config` command
+4. Open a terminal/command prompt, and execute autominer with the `generate-config` command, passing the WhatToMine URL as an argument.
+
+**IMPORTANT: The URL must be wrapped in double-quotes `"..."`**
 
 Windows:
 ```
-autominer.exe generate-config
+autominer.exe generate-config "http://whattomine.com/coins?..."
 ```
 
 Linux:
 ```
-./autominer generate-config
+./autominer generate-config "http://whattomine.com/coins?..."
 ```
 
-5. When prompted, paste in your WhatToMine URL and press enter. It should generate a `config.yml` file.
-
-6. Open the generated `config.yml` file in a text editor, and adjust your coins/miners. You may want to create batch/shell scripts for each coin you plan to mine. You can also adjust the `profit_threshold` and `update_interval` settings to suit your needs.
+5. Open the generated `config.yml` file in a text editor, and adjust your coins/miners. You may want to create batch/shell scripts for each coin you plan to mine. You can also adjust the `profit_threshold` and `update_interval` settings to suit your needs.
 
 Example:
 ```yml
@@ -70,11 +70,11 @@ ZEC: "mine_zec.bat"
 ETH+DCR: "dualmine_eth_dcr.bat"
 ```
 
-7. Start autominer (make sure the `config.yml` file is in the same directory as the autominer executable)
+6. Start autominer (make sure the `config.yml` file is in the same directory as the autominer executable)
 
-8. ?????
+7. ?????
 
-9. Increased profits!
+8. Increased profits!
 
 # Support us
 ```
