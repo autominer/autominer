@@ -20,9 +20,9 @@ Autominer is a command-line utility to automatically mine the most profitable co
 * Does not impact hashrates (uses almost no system resources)
 
 # Releases
-The current version is **0.3.3**
-* Windows: [autominer-0.3.3-windows64.zip](https://github.com/autominer/autominer/releases/download/v0.3.3/autominer-0.3.3-windows64.zip)
-* Linux: [autominer-0.3.3-linux.tar.gz](https://github.com/autominer/autominer/releases/download/v0.3.3/autominer-0.3.3-linux.tar.gz)
+The current version is **0.3.4**
+* Windows: [autominer-0.3.4-windows64.zip](https://github.com/autominer/autominer/releases/download/v0.3.4/autominer-0.3.4-windows64.zip)
+* Linux: [autominer-0.3.4-linux.tar.gz](https://github.com/autominer/autominer/releases/download/v0.3.4/autominer-0.3.4-linux.tar.gz)
 
 # Setup
 1. Download the latest version of autominer, and extract the files.
