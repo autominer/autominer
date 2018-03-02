@@ -9,6 +9,8 @@
  A command-line utility to automatically mine the most profitable coin
 ```
 
+**I no longer have time to maintain this project. No future updates will be made.**
+
 # Overview
 Autominer is a command-line utility to automatically mine the most profitable coin. It uses [WhatToMine](http://whattomine.com) to determine the most profitable coin for your system, and makes sure you're mining it.
 
